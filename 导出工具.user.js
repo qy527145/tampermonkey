@@ -1,4 +1,4 @@
-// ==UserScript==
+﻿// ==UserScript==
 // @name         导出工具
 // @namespace    http://tampermonkey.net/
 // @version      0.1
@@ -39,7 +39,7 @@
         if (!match) {
             return;
         }
-        var id = match[0]
+        var id = match[0];
         var questions;
         //请求答案接口，通常会包含所有题目和选项，如果是第一次做题之前，题目的选项是没有的，需要另外请求
         GM_xmlhttpRequest({
